@@ -18,13 +18,13 @@ minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "ko-KR"
 title                    : "JY Story"
 title_separator          : "|"
-subtitle                 : "개발로 피어난 나만의 꿈과 일상의 현실"
+subtitle                 : #
 name                     : "JYStory"
 description              : "JY의 블로그 입니다."
 url                      : "https://alalal93.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   :
 logo                     : "/assets/images/JYStory3.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : ture # true, false (default)
@@ -105,17 +105,17 @@ analytics:
 # Site Author
 author:
   name             : "JYSotry"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "JY의 블로그입니다."
+  avatar           : "/assets/images/walk.png"
+  bio              : " 나만의공간, 나만의 이야기"
   location         : "South Korea"
   email            : 
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:alalal9310@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://alalal93.github.io"
+    - #label: "Email"
+      #icon: "fas fa-fw fa-envelope-square"
+      #url: "mailto:alalal9310@gmail.com"
+    - #label: "Website"
+      #icon: "fas fa-fw fa-link"
+      #url: "https://alalal93.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/alalal93"
