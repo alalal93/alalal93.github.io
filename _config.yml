@@ -282,5 +282,10 @@ defaults:
       share: true
       related: true
       show_date: true
+      toc: true
+      toc_sticky: true
+      author_profile: false
+      toc_label: Contents
+      toc_icon: "fas fa-globe"
 
 date_format: "%Y-%m-%d"
