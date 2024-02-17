@@ -110,9 +110,10 @@ author:
   location         : "South Korea"
   email            : 
   links:
-    - #label: "Email"
-      #icon: "fas fa-fw fa-envelope-square"
-      #url: "mailto:alalal9310@gmail.com"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:alalal9310@gmail.com"
+
     - #label: "Website"
       #icon: "fas fa-fw fa-link"
       #url: "https://alalal93.github.io"
@@ -122,6 +123,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/kimjuyoung3725/"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://youtube.com/@projectJY1017?si=Ikcp1qH1K4ieEwWp"
 
 # Site Footer
 footer:
@@ -133,7 +137,12 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/kimjuyoung3725/"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://youtube.com/@projectJY1017?si=Ikcp1qH1K4ieEwWp"
 
+
+      
 
 # Reading Files
 include:
