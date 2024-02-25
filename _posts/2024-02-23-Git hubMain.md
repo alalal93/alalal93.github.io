@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "[GitHub] 자주쓰이는 Git Gub 명령어 "
+title:  "[GitHub] 자주쓰이는 Git Hub 명령어 "
 categories: GitHub
 tag: [GitHub]
 sidebar:
