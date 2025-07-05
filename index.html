@@ -247,25 +247,26 @@ http://www.templatemo.com/preview/templatemo_427_timeline
 
     
 		<!-- Javascripts -->
-        <script>
-        function initialize()
-        {
-        var mapProp = {
-          center: new google.maps.LatLng(40.7828839,-73.9652425),
-          zoom: 15,
-		  scrollwheel: false,
-          mapTypeId:google.maps.MapTypeId.ROADMAP
-          };
-        var map=new google.maps.Map(document.getElementById("templatemo-map")
-          ,mapProp);
-        }
+   <script>
+  var map;
+  var center = new google.maps.LatLng(40.7828839, -73.9652425);
 
-        google.maps.event.addDomListener(window, 'load', initialize);
-		google.maps.event.addDomListener(window, 'resize', function() 
-		{
-			map.setCenter(center);
-		});
-        </script>
+  function initialize() {
+    var mapProp = {
+      center: center,
+      zoom: 15,
+      scrollwheel: false,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    map = new google.maps.Map(document.getElementById("templatemo-map"), mapProp);
+  }
+
+  google.maps.event.addDomListener(window, 'load', initialize);
+  google.maps.event.addDomListener(window, 'resize', function () {
+    map.setCenter(center);
+  });
+</script>
+
 		<script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/custom.js"></script>
 
